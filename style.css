@@ -1,0 +1,320 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #404eed;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+}
+
+.navbar a {
+  color: white;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+nav img {
+  width: 140px;
+  /* margin-bottom: 35px; */
+  position: relative;
+  bottom: 9px;
+  left: 10px;
+}
+
+nav {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-evenly;
+  text-align: center;
+  padding-top: 40px;
+  font-family: "whitney", sans-serif;
+  font-size: 16px;
+}
+
+.navbar {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  justify-content: space-between;
+  text-align: center;
+}
+
+.logo {
+  margin-right: 100px;
+}
+
+.login span {
+  margin-left: 100px;
+  background-color: white;
+  color: black;
+  padding: 10px 16px;
+  border-radius: 20px;
+  font-family: "whitney", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.login span:hover {
+  color: rgb(76, 153, 240);
+  box-shadow: 0 5px 20px rgb(17, 17, 100);
+}
+
+.header {
+  background-image: url(image/img1.png), url(image/img3.png),
+    url(image/img2.png);
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-attachment: inherit, inherit, inherit;
+  background-size: auto, 50%, 100%;
+  background-position: -25% 79.5%, 129% 73%, 50% 78.5%;
+  color: white;
+  text-align: center;
+  min-width: 100%;
+  min-height: 100%;
+  justify-content: center;
+}
+
+.text {
+  padding-top: 80px;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 700;
+  font-size: 90px;
+  /* letter-spacing: 3px; */
+  margin: 0 0 24px;
+}
+
+.header button {
+  font-family: "whitney", sans-serif;
+  padding: 15px;
+  border-radius: 28px;
+  font-size: 20px;
+  margin: 10px;
+  padding: 16px 32px;
+}
+
+.header div p {
+  font-size: 20px;
+  font-family: "whitney", sans-serif;
+  margin-top: 30px;
+  line-height: 2;
+}
+
+.window {
+  background-color: white;
+  border: white;
+}
+
+.browser {
+  background-color: #23272a;
+  border: #23272a;
+  color: white;
+}
+
+.window:hover {
+  color: rgb(83, 83, 251);
+  cursor: pointer;
+  box-shadow: 0px 5px 10px rgb(17, 17, 100);
+}
+
+.browser:hover {
+  background-color: #36393f;
+  cursor: pointer;
+  box-shadow: 0px 5px 10px rgb(17, 17, 100);
+}
+/* Section 1 and Section 3 */
+
+.sec1,
+.sec3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 80px;
+}
+
+.section-heading1,
+.section-heading3 {
+  font-size: 35px;
+  font-family: "whitney", sans-serif;
+  color: #23272a;
+  margin: 0 0 24px;
+}
+
+.section-content1,
+.section-content3 {
+  padding-left: 105px;
+}
+.section-para1,
+.section-para3 {
+  font-family: "whitney", sans-serif;
+  font-size: 20px;
+  color: #23272a;
+}
+
+/* Section 2 */
+.sec2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  
+  padding: 120px;
+  background-color: #f6f6f6;
+}
+
+.section-heading2 {
+  font-family: "whitney", sans-serif;
+  font-size: 35px;
+  margin: 0 0 24px;
+  color: #23272a;
+}
+
+.section-para2 {
+  font-family: "whitney", sans-serif;
+  font-size: 20px;
+  color: #23272a;
+}
+
+/* Section 4 and Section 5 */
+
+.sec4,
+.sec5 {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  background-color: #f6f6f6;
+}
+
+.sec4 img {
+  width: 100%;
+}
+
+.section-content4,
+.section-content5 {
+  padding: 100px;
+}
+
+.section-heading4,
+.section-heading5 {
+  font-family: "whitney", sans-serif;
+  font-size: 35px;
+  font-weight: 1000;
+  margin: 0 0 24px;
+}
+
+.section-para4,
+.section-para5 {
+  font-family: "whitney", sans-serif;
+  font-size: 20px;
+  color: #23272a;
+}
+
+.section-content5 {
+  background-image: url(image/sec5.png);
+  background-repeat: no-repeat;
+  background-position: 50% 30%;
+}
+
+.section-para5 button {
+  color: white;
+  background-color: #5865f2;
+  border: #5865f2;
+  border-radius: 50px;
+  margin: 40px 0px 40px;
+  padding: 16px 32px;
+  font-family: "whitney", sans-serif;
+  font-size: 20px;
+}
+
+.section-para5 button:hover {
+  background-color: hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 71.8%);
+  cursor: pointer;
+  box-shadow: 0 5px 20px rgb(183,183,185);
+}
+
+/* Footere */
+footer {
+  background-color: #23272a;
+  font-family: "whitney", sans-serif;
+  padding: 50px;
+  width: 100%;
+  height: 80vh;
+}
+
+footer h4 {
+  font-size: 40px;
+  font-family: "whitney", sans-serif;
+  color: #5865f2;
+}
+
+footer a {
+  color: white;
+  display: inline-block;
+  line-height: 30px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+h5 {
+  color: #5865f2;
+  font-size: 16px;
+  padding-left: 35px;
+}
+
+.product,
+.company,
+.resources,
+.policies {
+  font-size: 16px;
+}
+
+.footer {
+  display: flex;
+}
+
+li {
+  list-style: none;
+}
+
+.foot1 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  border-bottom: 2px solid blue;
+  margin-bottom: 80px;
+}
+
+i {
+  margin-left: 10px;
+}
+
+.foot3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+}
+
+.foot3 img {
+  width: 35px;
+}
+
+.foot3 button {
+  font-size: 14px;
+  color: white;
+  background-color: #5865f2;
+  border: #5865f2;
+  border-radius: 40px;
+  padding: 10px 16px;
+  float: right;
+}
+
+.foot3 button:hover {
+  cursor: pointer;
+  background-color: hsl(235, calc(var(--saturation-factor, 1) * 86.1%), 71.8%);
+}
