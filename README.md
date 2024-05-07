@@ -1,1 +1,1 @@
-Since this website is not deploy yet so place download all the resources to your pc to see the final result.
+Since this website is not deployed yet so please fork the resources to your pc to see the final result.
